@@ -2,7 +2,6 @@
 
 **An interactive Excel-based sales analytics dashboard for tracking pharmaceutical product performance, regional KPIs, and profitability insights — all in one place.**
 
-
 ---
 
 ## 📸 Dashboard Preview
@@ -19,13 +18,11 @@
 
 - [About the Project](#-about-the-project)
 - [Key Metrics at a Glance](#-key-metrics-at-a-glance)
-- [Data Structure](#-data-structure)
 - [Product Portfolio](#-product-portfolio)
 - [Regional Breakdown](#-regional-breakdown)
 - [KPI Insights](#-kpi-insights)
 - [File Structure](#-file-structure)
 - [How to Use](#-how-to-use)
-- [Contributing](#-contributing)
 
 ---
 
@@ -67,9 +64,11 @@ The workbook contains the following sheets:
 | `Region` | Region-specific performance breakdowns |
 | `Profit` | Deep-dive profit analysis by product |
 
-## 📋 Raw Data Columns
+### 📋 Raw Data Columns
 
-
+```
+Product ID | Product Name | Category | Region | Sales Rep
+Units Sold | Revenue ($) | Cost ($) | Profit ($) | Month
 ```
 
 ---
@@ -138,21 +137,15 @@ May  █████████████████   ₹27,600
 ## 📁 File Structure
 
 ```
-## 📁 Project Structure
-
-| File / Folder | Description |
-|---|---|
-| 📦 **PharmaDash/** | Root project directory |
-| 📊 pharma_company_dash.xlsx | Main Excel dashboard file |
-| 📄 README.md | Project documentation |
-| 🖼️ images/ | Folder containing dashboard visuals |
-| ├── banner.png | Project banner image |
-| ├── dashboard-overview.png | Dashboard overview screenshot |
-| ├── kpi-sheet.png | KPI sheet visualization |
-| ├── regional-performance.png | Regional performance chart |
-| └── profit-analysis.png | Profit analysis chart |
-```
-
+📦 PharmaDash/
+├── 📊 pharma_company_dash.xlsx     ← Main Excel dashboard file
+├── 📄 README.md                    ← You are here
+└── 🖼️ images/
+    ├── banner.png
+    ├── dashboard-overview.png
+    ├── kpi-sheet.png
+    ├── regional-performance.png
+    └── profit-analysis.png
 ```
 
 ---
@@ -179,13 +172,5 @@ May  █████████████████   ₹27,600
    - Refresh all **Pivot Tables** (`Data → Refresh All`) to update KPIs automatically
 
 ---
-
-## 📬 Contact
-
-> Made with ❤️ for pharma analytics enthusiasts.
-> Feel free to connect or raise an issue if you have questions!
-
----
-
 
 ⭐ **If you found this dashboard useful, consider giving it a star!** ⭐
