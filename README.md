@@ -161,14 +161,14 @@ May  █████████████████   ₹27,600
 ## 🚀 How to Use
 
 1. **Clone the repository**
-   ```bash
+   ```
    [git clone https://github.com/your-username/pharma-dashboard.git](https://github.com/akashsheet10/Pharma_company_Analysis/tree/main)
    ```
 
 2. **Open the Excel file**
    ```
-   Open pharma_company_dash.xlsx in Microsoft Excel (2016 or later recommended)
-   ```
+(https://github.com/akashsheet10/Pharma_company_Analysis/blob/main/pharma%20company%20dash.xlsx)
+   ---
 
 3. **Navigate the sheets**
    - Start with the **`KPi`** sheet for a quick executive summary
