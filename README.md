@@ -16,13 +16,13 @@
 
 ##  Table of Contents
 
-- [About the Project](#-about-the-project)
-- [Key Metrics at a Glance](#-key-metrics-at-a-glance)
-- [Product Portfolio](#-product-portfolio)
-- [Regional Breakdown](#-regional-breakdown)
-- [KPI Insights](#-kpi-insights)
-- [File Structure](#-file-structure)
-- [How to Use](#-how-to-use)
+- [About the Project]
+- [Key Metrics at a Glance]
+- [Product Portfolio]
+- [Regional Breakdown]
+- [KPI Insights]
+- [File Structure]
+- [How to Use]
 
 ---
 
