@@ -134,18 +134,19 @@ May  █████████████████   ₹27,600
 
 ---
 
-## 📁 File Structure
+## 📁 Project Structure
 
-```
-📦 PharmaDash/
-├── 📊 pharma_company_dash.xlsx     ← Main Excel dashboard file
-├── 📄 README.md                    ← You are here
-└── 🖼️ images/
-    ├── banner.png
-    ├── dashboard-overview.png
-    ├── kpi-sheet.png
-    ├── regional-performance.png
-    └── profit-analysis.png
+| File / Folder | Description |
+|---|---|
+| 📦 **PharmaDash/** | Root project directory |
+| 📊 pharma_company_dash.xlsx | Main Excel dashboard file |
+| 📄 README.md | Project documentation |
+| 🖼️ images/ | Folder containing dashboard visuals |
+| ├── banner.png | Project banner image |
+| ├── dashboard-overview.png | Dashboard overview screenshot |
+| ├── kpi-sheet.png | KPI sheet visualization |
+| ├── regional-performance.png | Regional performance chart |
+| └── profit-analysis.png | Profit analysis chart |
 ```
 
 ---
