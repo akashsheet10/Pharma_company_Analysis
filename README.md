@@ -162,7 +162,7 @@ May  █████████████████   ₹27,600
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/pharma-dashboard.git
+   [git clone https://github.com/your-username/pharma-dashboard.git](https://github.com/akashsheet10/Pharma_company_Analysis/tree/main)
    ```
 
 2. **Open the Excel file**
