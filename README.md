@@ -162,13 +162,15 @@ May  █████████████████   ₹27,600
 
 1. **Clone the repository**
    ```
-  (https://github.com/akashsheet10/Pharma_company_Analysis/tree/main)
+    (https://github.com/akashsheet10/Pharma_company_Analysis/tree/main)
+   
    ```
 
 2. **Open the Excel file**
    ```
-(https://github.com/akashsheet10/Pharma_company_Analysis/blob/main/pharma%20company%20dash.xlsx)
-   ---
+   (https://github.com/akashsheet10/Pharma_company_Analysis/blob/main/pharma%20company%20dash.xlsx)
+
+   ```
 
 3. **Navigate the sheets**
    - Start with the **`KPi`** sheet for a quick executive summary
