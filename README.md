@@ -67,23 +67,20 @@ The workbook contains the following sheets:
 | `Region` | Region-specific performance breakdowns |
 | `Profit` | Deep-dive profit analysis by product |
 
-### 📋 Raw Data Columns
+## 📋 Raw Data Columns
 
-```
-### 📋 Raw Data Columns
-
-| Column          | Description                                      |
-|-----------------|--------------------------------------------------|
-| Product ID      | Unique identifier for each product               |
-| Product Name    | Name of the pharmaceutical product               |
-| Category        | Product type: OTC or Prescription                |
-| Region          | Sales region (North, South, East, West)          |
-| Sales Rep       | Assigned sales representative                    |
-| Units Sold      | Number of units sold                             |
-| Revenue ($)     | Total revenue generated (USD)                    |
-| Cost ($)        | Total cost incurred (USD)                        |
-| Profit ($)      | Net profit (Revenue - Cost)                      |
-| Month           | Transaction month                                |
+| Column | Description |
+|---|---|
+| 🆔 **Product ID** | Unique identifier for each product |
+| 💊 **Product Name** | Name of the pharmaceutical product |
+| 🏷️ **Category** | Product type: OTC or Prescription |
+| 🌍 **Region** | Sales region (North, South, East, West) |
+| 👤 **Sales Rep** | Assigned sales representative |
+| 📦 **Units Sold** | Number of units sold |
+| 💰 **Revenue ($)** | Total revenue generated (USD) |
+| 💸 **Cost ($)** | Total cost incurred (USD) |
+| 📈 **Profit ($)** | Net profit (Revenue - Cost) |
+| 🗓️ **Month** | Transaction month |
 ```
 
 ---
@@ -152,19 +149,19 @@ May  █████████████████   ₹27,600
 ## 📁 File Structure
 
 ```
-## 📁 File Structure
-
 ## 📁 Project Structure
 
-📦 PharmaDash/
-├── 📊 pharma_company_dash.xlsx     # Main Excel dashboard file
-├── 📄 README.md                    # Project documentation
-└── 🖼️ images/
-    ├── banner.png
-    ├── dashboard-overview.png
-    ├── kpi-sheet.png
-    ├── regional-performance.png
-    └── profit-analysis.png
+| File / Folder | Description |
+|---|---|
+| 📦 **PharmaDash/** | Root project directory |
+| 📊 pharma_company_dash.xlsx | Main Excel dashboard file |
+| 📄 README.md | Project documentation |
+| 🖼️ images/ | Folder containing dashboard visuals |
+| ├── banner.png | Project banner image |
+| ├── dashboard-overview.png | Dashboard overview screenshot |
+| ├── kpi-sheet.png | KPI sheet visualization |
+| ├── regional-performance.png | Regional performance chart |
+| └── profit-analysis.png | Profit analysis chart |
 ```
 
 ```
