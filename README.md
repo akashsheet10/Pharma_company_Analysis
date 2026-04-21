@@ -7,12 +7,6 @@
 
 ## 📸 Dashboard Preview
 
-> 🖼️ *Screenshots of the dashboard are shown below. Upload your images to a folder called `/images` in this repository and update the paths accordingly.*
-
-
-### 📊 KPI Summary Sheet
-![KPI Sheet](images/kpi-sheet.png)
-
 ### 🗺️ Regional Performance
 ![Regional Performance](https://github.com/akashsheet10/Pharma_company_Analysis/blob/main/Screenshot%202026-04-21%20212145.png?raw=true)
 
@@ -78,18 +72,19 @@ The workbook contains the following sheets:
 ```
 ### 📋 Raw Data Columns
 
-| Column | Description |
-|---|---|
-| `Product ID` | Unique identifier for each product |
-| `Product Name` | Name of the pharmaceutical product |
-| `Category` | OTC or Prescription |
-| `Region` | Sales region — North, South, East, West |
-| `Sales Rep` | Name of the assigned sales representative |
-| `Units Sold` | Number of units sold in that entry |
-| `Revenue ($)` | Total revenue generated |
-| `Cost ($)` | Total cost incurred |
-| `Profit ($)` | Net profit (Revenue minus Cost) |
-| `Month` | Month of the transaction |
+| Column         | Description                             |
+| -------------- | --------------------------------------- |
+| `Product ID`   | Unique identifier for each product      |
+| `Product Name` | Name of the pharmaceutical product      |
+| `Category`     | Product type: OTC or Prescription       |
+| `Region`       | Sales region (North, South, East, West) |
+| `Sales Rep`    | Assigned sales representative           |
+| `Units Sold`   | Number of units sold                    |
+| `Revenue ($)`  | Total revenue generated (USD)           |
+| `Cost ($)`     | Total cost incurred (USD)               |
+| `Profit ($)`   | Net profit (Revenue − Cost)             |
+| `Month`        | Transaction month                       |
+
 ```
 
 ---
@@ -160,12 +155,20 @@ May  █████████████████   ₹27,600
 ```
 ## 📁 File Structure
 
-| File / Folder | Description |
-|---|---|
-| `pharma_company_dash.xlsx` | 📊 Main Excel dashboard file |
-| `README.md` | 📄 Project documentation (this file) |
-| `images/dashboard-overview.png` | 🖼️ Screenshot of the main dashboard |
-| `images/kpi-sheet.png` | 🖼️ Screenshot of the KPI summary sheet |
+## 📁 Project Structure
+
+```
+📦 PharmaDash/
+├── 📊 pharma_company_dash.xlsx     # Main Excel dashboard file
+├── 📄 README.md                    # Project documentation
+└── 🖼️ images/
+    ├── banner.png
+    ├── dashboard-overview.png
+    ├── kpi-sheet.png
+    ├── regional-performance.png
+    └── profit-analysis.png
+```
+
 ```
 
 ---
