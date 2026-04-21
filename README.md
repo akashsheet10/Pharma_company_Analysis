@@ -69,18 +69,7 @@ The workbook contains the following sheets:
 
 ## 📋 Raw Data Columns
 
-| Column | Description |
-|---|---|
-| 🆔 **Product ID** | Unique identifier for each product |
-| 💊 **Product Name** | Name of the pharmaceutical product |
-| 🏷️ **Category** | Product type: OTC or Prescription |
-| 🌍 **Region** | Sales region (North, South, East, West) |
-| 👤 **Sales Rep** | Assigned sales representative |
-| 📦 **Units Sold** | Number of units sold |
-| 💰 **Revenue ($)** | Total revenue generated (USD) |
-| 💸 **Cost ($)** | Total cost incurred (USD) |
-| 📈 **Profit ($)** | Net profit (Revenue - Cost) |
-| 🗓️ **Month** | Transaction month |
+
 ```
 
 ---
