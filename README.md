@@ -1,20 +1,20 @@
-# 💊 PharmaDash — Pharma Company Sales Dashboard
+#  PharmaDash — Pharma Company Sales Dashboard
 
 **An interactive Excel-based sales analytics dashboard for tracking pharmaceutical product performance, regional KPIs, and profitability insights — all in one place.**
 
 ---
 
-## 📸 Dashboard Preview
+##  Dashboard Preview
 
-### 🗺️ Regional Performance
+###  Regional Performance
 ![Regional Performance](https://github.com/akashsheet10/Pharma_company_Analysis/blob/main/Screenshot%202026-04-21%20212145.png?raw=true)
 
-### 💰 Profit Analysis
+###  Profit Analysis
 ![Profit Analysis](https://github.com/akashsheet10/Pharma_company_Analysis/blob/main/Screenshot%202026-04-21%20212208.png?raw=true)
 
 ---
 
-## 📌 Table of Contents
+##  Table of Contents
 
 - [About the Project](#-about-the-project)
 - [Key Metrics at a Glance](#-key-metrics-at-a-glance)
@@ -30,30 +30,30 @@
 
 **PharmaDash** is a comprehensive Excel dashboard designed for pharma business analysts, sales managers, and operations teams to monitor and evaluate:
 
-- 📦 Product-wise sales performance (OTC & Prescription)
-- 🌍 Region-wise revenue and profit distribution
-- 👨‍💼 Sales representative performance tracking
-- 📅 Monthly profit trends over time
-- 💹 Profitability ratios by product category
+-  Product-wise sales performance (OTC & Prescription)
+-  Region-wise revenue and profit distribution
+-  Sales representative performance tracking
+-  Monthly profit trends over time
+-  Profitability ratios by product category
 
 The dashboard consolidates raw transactional data into clean **KPI summaries**, **pivot-based analytics**, and **visual charts** — helping decision-makers act on insights faster.
 
 ---
 
-## 📊 Key Metrics at a Glance
+##  Key Metrics at a Glance
 
 | Metric | Value |
 |---|---|
-| 💰 **Total Profit** | ₹1,43,500 |
-| 📦 **Total Units Sold** | 2,396 units |
-| 🗓️ **Months Tracked** | Jan – May |
-| 🏷️ **Products Tracked** | 10 unique products |
-| 🌍 **Regions Covered** | North, South, East, West |
-| 🧪 **Product Categories** | OTC (10 entries) & Prescription (10 entries) |
+|  **Total Profit** | ₹1,43,500 |
+|  **Total Units Sold** | 2,396 units |
+|  **Months Tracked** | Jan – May |
+|  **Products Tracked** | 10 unique products |
+|  **Regions Covered** | North, South, East, West |
+|  **Product Categories** | OTC (10 entries) & Prescription (10 entries) |
 
 ---
 
-## 🗃️ Data Structure
+##  Data Structure
 
 The workbook contains the following sheets:
 
@@ -64,30 +64,30 @@ The workbook contains the following sheets:
 | `Region` | Region-specific performance breakdowns |
 | `Profit` | Deep-dive profit analysis by product |
 
-## 📋 Raw Data Columns
+##  Raw Data Columns
 
 | Column | Description |
 |---|---|
-| 🆔 **Product ID** | Unique identifier for each product |
-| 💊 **Product Name** | Name of the pharmaceutical product |
-| 🏷️ **Category** | Product type: OTC or Prescription |
-| 🌍 **Region** | Sales region (North, South, East, West) |
-| 👤 **Sales Rep** | Assigned sales representative |
-| 📦 **Units Sold** | Number of units sold |
-| 💰 **Revenue ($)** | Total revenue generated (USD) |
-| 💸 **Cost ($)** | Total cost incurred (USD) |
-| 📈 **Profit ($)** | Net profit (Revenue - Cost) |
-| 🗓️ **Month** | Transaction month |
+|  **Product ID** | Unique identifier for each product |
+|  **Product Name** | Name of the pharmaceutical product |
+|  **Category** | Product type: OTC or Prescription |
+|  **Region** | Sales region (North, South, East, West) |
+|  **Sales Rep** | Assigned sales representative |
+|  **Units Sold** | Number of units sold |
+|  **Revenue ($)** | Total revenue generated (USD) |
+|  **Cost ($)** | Total cost incurred (USD) |
+|  **Profit ($)** | Net profit (Revenue - Cost) |
+|  **Month** | Transaction month |
 
 ---
 
 ---
 
-## 💊 Product Portfolio
+##  Product Portfolio
 
 The dashboard tracks **10 pharmaceutical products** across two categories:
 
-### 🟢 OTC (Over-The-Counter)
+###  OTC (Over-The-Counter)
 | Product | Total Units Sold |
 |---|---|
 | RespiraAid | 410 |
@@ -96,33 +96,33 @@ The dashboard tracks **10 pharmaceutical products** across two categories:
 | VisionPro | 290 |
 | PainRelief Plus | 250 |
 
-### 🔵 Prescription
+###  Prescription
 | Product | Total Units Sold | Profit % Share |
 |---|---|---|
-| NeuroMax | 125 | **14.98%** ⬆️ Highest |
+| NeuroMax | 125 | **14.98%**  Highest |
 | HepaGuard | 185 | 12.89% |
 | GlucoBalance | 173 | 12.06% |
 | CardioCare | 150 | 11.15% |
 | OsteoFlex | 153 | 10.66% |
 
-> 💡 **Prescription products generate 61.7% of total profit** despite equal product count with OTC.
+>  **Prescription products generate 61.7% of total profit** despite equal product count with OTC.
 
 ---
 
-## 🗺️ Regional Breakdown
+##  Regional Breakdown
 
 | Region | Total Profit | Units Sold |
 |---|---|---|
-| 🟠 East | ₹45,800 | 398 |
-| 🔵 West | ₹42,800 | 388 |
-| 🟢 South | ₹27,500 | 810 |
-| 🔴 North | ₹27,400 | 800 |
+|  East | ₹45,800 | 398 |
+|  West | ₹42,800 | 388 |
+| South | ₹27,500 | 810 |
+|  North | ₹27,400 | 800 |
 
-> 📌 **East & West** lead in profitability. **South & North** lead in volume — suggesting higher OTC activity in those regions.
+>  **East & West** lead in profitability. **South & North** lead in volume — suggesting higher OTC activity in those regions.
 
 ---
 
-## 📈 KPI Insights
+##  KPI Insights
 
 ### Monthly Profit Trend
 
@@ -134,7 +134,7 @@ Apr  █████████████████████ ₹33,900  
 May  █████████████████   ₹27,600
 ```
 
-> 📆 **April** recorded the highest profit at ₹33,900. **March** saw the lowest at ₹24,500 — flagging a potential area to investigate for seasonal factors or rep performance.
+>  **April** recorded the highest profit at ₹33,900. **March** saw the lowest at ₹24,500 — flagging a potential area to investigate for seasonal factors or rep performance.
 
 ### Profit by Category
 | Category | Total Profit | Share |
@@ -144,13 +144,13 @@ May  █████████████████   ₹27,600
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 | File / Folder | Description |
 |---|---|
-| 📊 pharma_company_dash.xlsx | Main Excel dashboard file |
-| 📄 README.md | Project documentation |
-| 🖼️ images/ | Folder containing dashboard visuals |
+|  pharma_company_dash.xlsx | Main Excel dashboard file |
+|  README.md | Project documentation |
+|  images/ | Folder containing dashboard visuals |
 | ├── regional-performance.png | Regional performance chart |
 | └── profit-analysis.png | Profit analysis chart |
 ---
@@ -158,11 +158,11 @@ May  █████████████████   ₹27,600
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. **Clone the repository**
    ```
-   [git clone https://github.com/your-username/pharma-dashboard.git](https://github.com/akashsheet10/Pharma_company_Analysis/tree/main)
+  (https://github.com/akashsheet10/Pharma_company_Analysis/tree/main)
    ```
 
 2. **Open the Excel file**
@@ -181,4 +181,4 @@ May  █████████████████   ₹27,600
 
 ---
 
-⭐ **If you found this dashboard useful, consider giving it a star!** ⭐
+ **If you found this dashboard useful, consider giving it a star!** ⭐
