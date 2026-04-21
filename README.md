@@ -72,19 +72,18 @@ The workbook contains the following sheets:
 ```
 ### 📋 Raw Data Columns
 
-| Column         | Description                             |
-| -------------- | --------------------------------------- |
-| `Product ID`   | Unique identifier for each product      |
-| `Product Name` | Name of the pharmaceutical product      |
-| `Category`     | Product type: OTC or Prescription       |
-| `Region`       | Sales region (North, South, East, West) |
-| `Sales Rep`    | Assigned sales representative           |
-| `Units Sold`   | Number of units sold                    |
-| `Revenue ($)`  | Total revenue generated (USD)           |
-| `Cost ($)`     | Total cost incurred (USD)               |
-| `Profit ($)`   | Net profit (Revenue − Cost)             |
-| `Month`        | Transaction month                       |
-
+| Column          | Description                                      |
+|-----------------|--------------------------------------------------|
+| Product ID      | Unique identifier for each product               |
+| Product Name    | Name of the pharmaceutical product               |
+| Category        | Product type: OTC or Prescription                |
+| Region          | Sales region (North, South, East, West)          |
+| Sales Rep       | Assigned sales representative                    |
+| Units Sold      | Number of units sold                             |
+| Revenue ($)     | Total revenue generated (USD)                    |
+| Cost ($)        | Total cost incurred (USD)                        |
+| Profit ($)      | Net profit (Revenue - Cost)                      |
+| Month           | Transaction month                                |
 ```
 
 ---
@@ -157,7 +156,6 @@ May  █████████████████   ₹27,600
 
 ## 📁 Project Structure
 
-```
 📦 PharmaDash/
 ├── 📊 pharma_company_dash.xlsx     # Main Excel dashboard file
 ├── 📄 README.md                    # Project documentation
